@@ -233,6 +233,8 @@ spec:
   selector:
     matchLabels:
       app: frontend
+  # added replicas here by me # 
+  replicas: 1    
   template:
     metadata:
       labels:
